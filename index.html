@@ -32,10 +32,45 @@
 		<title>Home Hanna Schimek</title>
 	</head>
 	<body>
+		<nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Hanna Schimek</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">My interests</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">About me</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact me</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
 		<div class="header">
 			<h2>Hi, I am</h2>
 			<h1>Hanna Schimek</h1>
-			<h3>This website is about me and my interests.</h3>
+			<h3>This website is about the things I like most in the world.</h3>
 			<div class="header-buttons">
 				<a href="about.html" class="btn btn-primary btn-about">About me</a>
 				<a href="contact.html" class="btn btn-secondary btn-contact"
@@ -44,9 +79,37 @@
 			</div>
 		</div>
 
+		<div class="container">
+			<h2>What I like to do the most...</h2>
+			<div class="row">
+				<div class="col-md-4 mb-4">
+					<img
+						src="img/bike.jpg"
+						alt="Person biking in a sunset, Photo by Jay Kudva on Unsplash"
+						class="img-fluid p-2 shadow rounded"
+					/>
+				</div>
+				<div class="col-md-4 mb-4">
+					<img
+						src="img/hiking.jpg"
+						alt="two Persons hiking, Photo by Toomas Tartes in Unsplash"
+						class="img-fluid p-2 shadow rounded"
+					/>
+				</div>
+				<div class="col-md-4 mb-4">
+					<img
+						src="img/paint.jpg"
+						alt="Paintbrushes and paint splots, Photo by Tim Artebury on Unsplash"
+						class="img-fluid p-2 shadow rounded"
+					/>
+				</div>
+			</div>
+			<a href="work.html"
+				>Find out more about my interests
+				<i class="fa-solid fa-arrow-right-long"> </i>
+			</a>
+		</div>
+
 		<br />
-		<i class="fa-solid fa-person-biking"></i>
-		<i class="fa-solid fa-person-hiking"></i>
-		<i class="fa-solid fa-paintbrush"></i>
 	</body>
 </html>
