@@ -55,3 +55,11 @@ h3 {
 	color: var(--primary-color);
 	border-color: var(--primary-color);
 }
+
+footer {
+	background-color: var(--secondary-color);
+	padding: 25px 50px;
+}
+footer p {
+	margin-bottom: 0;
+}
