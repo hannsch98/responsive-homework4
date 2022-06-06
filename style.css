@@ -30,35 +30,41 @@ h3 {
 
 .header {
 	background-color: var(--secondary-color);
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	padding: 100px;
 	text-align: center;
 }
 
-.header-buttons {
+.action-buttons {
+	text-align: center;
 	margin: 50px auto;
 }
 
-.header-buttons a {
+.action-buttons a {
 	margin: auto 10px;
 	padding: 15px 30px;
 }
 
-.btn-about {
+.btn-primary {
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
 	color: var(--secondary-color);
 }
 
-.btn-contact {
+.btn-secondary {
 	background-color: var(--secondary-color);
 	color: var(--primary-color);
 	border-color: var(--primary-color);
 }
 
+.contact {
+	text-align: center;
+}
+
 footer {
 	background-color: var(--secondary-color);
 	padding: 25px 50px;
+	bottom: 0;
 }
 footer p {
 	margin-bottom: 0;
