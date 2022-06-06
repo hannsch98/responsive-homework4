@@ -10,6 +10,7 @@ font-family: 'Poppins', sans-serif;
 
 body {
 	font-family: "Poppins", sans-serif;
+	margin-bottom: 100px;
 }
 
 h1 {
@@ -63,9 +64,46 @@ h3 {
 
 footer {
 	background-color: var(--secondary-color);
+	width: 100%;
 	padding: 25px 50px;
+	position: fixed;
+	left: 0;
 	bottom: 0;
 }
 footer p {
 	margin-bottom: 0;
+}
+
+@media (max-width: 499px) {
+	.action-buttons a {
+		padding: 25px 40px;
+	}
+
+	.action-buttons a.btn-primary {
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 578px) {
+	img {
+		display: none;
+	}
+
+	h1 {
+		font-size: 64px;
+	}
+
+	.header {
+		padding: 50px;
+	}
+
+	.images {
+		display: none;
+	}
+
+	.interests-mobile {
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+	}
 }
