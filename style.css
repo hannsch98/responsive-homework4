@@ -102,6 +102,7 @@ footer {
 }
 footer p {
 	margin-bottom: 0;
+	font-size: 12px;
 }
 
 @media (min-width: 578px) {
