@@ -6,6 +6,7 @@ font-family: 'Poppins', sans-serif;
 :root {
 	--primary-color: #6c63ff;
 	--secondary-color: #f9f7fe;
+	--hover-color: #4741a7;
 }
 
 body {
@@ -56,10 +57,19 @@ p {
 	color: var(--secondary-color);
 }
 
+.btn-primary:hover {
+	background-color: var(--hover-color);
+}
+
 .btn-secondary {
-	background-color: var(--secondary-color);
+	background-color: white;
 	color: var(--primary-color);
 	border-color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+	background-color: #e0deff;
+	color: var(--primary-color);
 }
 
 .contact {
@@ -68,6 +78,18 @@ p {
 
 .photo-me {
 	border-radius: 50%;
+}
+
+.project {
+	background-color: var(--primary-color);
+}
+
+.link {
+	color: var(--primary-color);
+}
+
+.link:hover {
+	color: var(--hover-color);
 }
 
 footer {
