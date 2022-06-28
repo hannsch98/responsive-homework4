@@ -83,7 +83,7 @@ p {
 
 .photo-me {
 	border-radius: 50%;
-	background-color: var(--nav-color);
+	background-color: var(--accent-color);
 }
 
 .project {
