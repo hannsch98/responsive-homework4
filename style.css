@@ -81,6 +81,21 @@ p {
 	text-align: center;
 }
 
+.information {
+	border: 3px solid var(--accent-color);
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+.information p {
+	margin-bottom: 0;
+}
+
+.information i {
+	color: var(--primary-color);
+}
+
 .photo-me {
 	border-radius: 50%;
 	background-color: var(--accent-color);
